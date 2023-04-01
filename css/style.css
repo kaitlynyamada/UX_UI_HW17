@@ -162,7 +162,6 @@ hero
 
 .hero-content__text h3.color {
     color: var(--color-violet)
-    
 }
 
 /*hero content underline*/
@@ -172,9 +171,7 @@ hero
     width: 100%;
     left: 650px;
     top: 568px;
-    
     border-bottom: 4px solid var(--color-violet)
-
 }
 /* hero content visual*/
 .hero-content__visual img {
@@ -182,8 +179,7 @@ hero
     left: -715.45px;
     top: 114.82px;
     transform: rotate(-15deg);
-    opacity: 69%;
-
+    opacity: 69%
 }
 
 /* 
@@ -196,7 +192,7 @@ container for about
     display: flex;
     flex-direction: column;
     margin-right: 270px;
-
+    margin-left: 0px;
 }
 
 /* 
@@ -206,18 +202,79 @@ about me
 .about-line h6 {
     display:flex;
     justify-content: right;
-    width: 100%;
     margin: 0;
-    padding:0;
+    padding: 0;
     border-top: 4px solid var(--color-violet);
-    
-
+    width: 100%;
 }
 
 .about-content p {
-
     width: 665px;
     height: 127px;
     margin: 40px 460px 65px 155px;
+}
+/* 
+=========================================================================
+container for skills
+========================================================================= */
+.container-skills {
+    position:absolute;
+    top: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 270px;
+    margin-right: 0px;
 
 
+}
+
+/* 
+=========================================================================
+skills
+========================================================================= */
+
+.skills-line h6 {
+    display: flex;
+    justify-content: left;
+    margin: 0px;
+    padding: 0px;
+    border-bottom: 4px solid var(--color-violet);
+    width: 100%;
+}
+
+
+.skills-content p {
+
+
+
+}
+
+
+/* 
+=========================================================================
+container for tools
+========================================================================= */
+.container-tools {
+    position:absolute;
+    top: 1300px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 270px;
+    margin-right: 0px;
+
+
+}
+
+/* 
+=========================================================================
+tools
+========================================================================= */
+.tools-line h6 {
+
+
+}
+
+
+.tools-content p {
+    
+}
