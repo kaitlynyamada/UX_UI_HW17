@@ -7,6 +7,7 @@ color styles
 :root {
     --color-eggplant: #472836;
     --color-violet: #87677B;
+    --color-pink: #BDA1AD;
 
 }
 
@@ -100,7 +101,7 @@ header {
     padding: 0px 81px 0px 81px;
 }
 
-img.logo {
+img.header-logo {
     width: 217px;
     height: 215px;
 }
@@ -281,7 +282,7 @@ tools
 .tools-line h6 {
     display:flex;
     justify-content: right;
-    margin: 0px;
+    margin: 100px 0px 50px 0px;
     padding: 0px;
     border-top: 4px solid var(--color-violet);
     width: 100%;
@@ -294,6 +295,77 @@ tools
 }
 
 
-.tools-content p {
+/* 
+=========================================================================
+container for my work
+========================================================================= */
+.works {
+    margin-left: 270px;
+    margin-right: 0;
+}
 
+.container-works {
+    position: absolute;
+    top: 2500px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* 
+=========================================================================
+my work
+========================================================================= */
+
+.works-line h6 {
+    display: flex;
+    justify-content: left;
+    margin: 0;
+    padding: 0;
+    border-bottom: 4px solid var(--color-violet);
+    width: 100%;
+
+}
+
+
+.works-content {
+    display:flex;
+    flex-direction: column;
+    justify-content: right;
+    margin: 40px 460px 65px 155px;
+}
+
+
+/* 
+=========================================================================
+footer
+========================================================================= */
+footer {
+    position: absolute;
+    top: 2683px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: var(--color-pink);
+    width: 100%;
+
+}
+
+img.footer-logo {
+    width: 500px;
+    height: 500px;
+}
+
+.nav-footer ul {
+    list-style: none;
+    
+}
+
+.nav-footer ul li {
+    padding: 10px;
+    margin: 30px 20px 30px 20px;
+}
+
+.nav-footer ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
 }
