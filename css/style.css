@@ -7,7 +7,7 @@ color styles
 :root {
     --color-eggplant: #472836;
     --color-violet: #87677B;
-
+    --color-pink: #BDA1AD;
 }
 
 /* 
@@ -348,10 +348,17 @@ footer {
     top: 2683px;
     display: flex;
     flex-direction: row;
+    margin: 0;
+    width: 100%;
+
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
     align-items: center;
     background-color: var(--color-pink);
     width: 100%;
-
 }
 
 img.footer-logo {
@@ -377,4 +384,6 @@ img.footer-logo {
 .footer-visual {
     position: absolute;
     top: 2700px;
+    left: 650px;
+    opacity: 69%;
 }
