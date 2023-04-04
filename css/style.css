@@ -224,6 +224,7 @@ container for skills
 .skills {
     margin-left: 270px;
     margin-right: 0;
+    margin-bottom: 100px;
 }
 
 .container-skills {
@@ -263,11 +264,12 @@ container for tools
 .tools {
     margin-right: 270px;
     margin-left: 0px;
+    margin-top: 100px;;
 }
 
 .container-tools {
     position: absolute;
-    top: 1900px;
+    top: 2000px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -296,8 +298,16 @@ tools
 
 .tools-content p {
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+}
+
+/*=========================================================================
+container for my work
+========================================================================= */
+.works {
+    margin-left: 270px;
+    margin-right: 0;
+}
+
 .container-works {
     position: absolute;
     top: 2500px;
@@ -341,7 +351,6 @@ footer {
     align-items: center;
     background-color: var(--color-pink);
     width: 100%;
-    margin: 0;
 
 }
 
@@ -368,6 +377,4 @@ img.footer-logo {
 .footer-visual {
     position: absolute;
     top: 2700px;
-=======
->>>>>>> parent of 6b996c1 (footer added)
 }
